@@ -3407,7 +3407,15 @@ img.u-pull-left {
     .s-intro__title {
         --text-multiplier : .45;
     }
-}
+    .s-intro__more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-intro__more-btn {
+        border : 2px solid white;
+        font-size: .65rem;
+    }
 
 @media screen and (max-width: 400px) {
     .s-intro__title {
