@@ -3416,7 +3416,7 @@ img.u-pull-left {
         border : 2px solid white;
         font-size: .65rem;
     }
-
+}
 @media screen and (max-width: 400px) {
     .s-intro__title {
         --text-multiplier : .38;
