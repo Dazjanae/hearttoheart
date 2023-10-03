@@ -98,7 +98,7 @@
     /* color-1(#F9A828)
      * color-2(#07617D)
      */
-    --color-1 : hsla(37, 95%, 57%, 1);
+    --color-1 : rgb(189,0,0);
     --color-2 : hsla(194, 89%, 26%, 1);
 
     /* theme color variations
@@ -177,7 +177,7 @@
     /* preloader
      */
     --color-preloader-bg           : var(--color-gray-19);
-    --color-loader                 : var(--color-1);
+    --color-loader                 : rgb(189,0,0);
     --color-loader-light           : rgba(255, 255, 255, 0.1);
 
     /* others
@@ -3415,6 +3415,9 @@ img.u-pull-left {
     .s-intro__more-btn {
         border : 2px solid white;
         font-size: .65rem;
+    }
+    .contactme {
+        font-size: .80rem;
     }
 }
 @media screen and (max-width: 400px) {
