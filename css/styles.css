@@ -3167,7 +3167,7 @@ img.u-pull-left {
     bottom              : 0;
     width               : 100%;
     height              : 100%;
-    background-image    : url(../images/companionship.jpg);
+    background-image    : url(../images/happyclients.jpg);
     box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .7);
     background-repeat   : no-repeat;
     background-position : center 30%;
@@ -3420,7 +3420,7 @@ img.u-pull-left {
         font-size: .80rem;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .s-intro__title {
         --text-multiplier : .38;
     }
@@ -3432,9 +3432,10 @@ img.u-pull-left {
     .s-intro__scroll {
         right : 4.6rem;
     }
+    .s-intro__bg {
+    background-image    : url(../images/happyclientsmobile.png);
+    }
 }
-
-
 /* ===================================================================
  * # ABOUT
  *
